@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function Countryname({ params }: any) {
+export default function Countryname({params} : {params :  {country_name:string}}) {
 
     const country_details: {
 
@@ -45,7 +45,7 @@ export default function Countryname({ params }: any) {
         return country_details.find(c_name => c_name.name.toLowerCase() == country_url.toLowerCase());
     }
 
-    let result = find_country(params.country_names);
+    const result = find_country(params.country_name);
 
     return (
         <div>
