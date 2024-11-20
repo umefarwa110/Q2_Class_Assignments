@@ -3,8 +3,8 @@ import { ChangeEvent, useState } from "react";
 
 export default function Todo() {
 
-    const [tasks, setTasks] = useState(['']);
-    const [task, setTask] = useState("");
+    const [tasks, setTasks] = useState<string[]>([]);
+    const [task, setTask] = useState<string>("");
 
 
     const handleAddTask = () => {
