@@ -11,9 +11,13 @@ export default function Contact() {
 
             <div className="list">
                 <a href="/country/Malaysia"> Malaysia</a> &nbsp; &nbsp; &nbsp;
+                
                 <a href="/country/Finland"> Finland</a> &nbsp; &nbsp; &nbsp;
+
                 <a href="/country/Iceland"> Iceland</a> &nbsp; &nbsp; &nbsp;
+
                 <a href="/country/Japan"> Japan</a> &nbsp; &nbsp; &nbsp;
+
                 <a href="/country/Turkey"> Turkey</a> &nbsp; &nbsp; &nbsp;
 
                 {/* <Link href="/country/Finland"> Finland</Link> &nbsp; &nbsp; &nbsp;
