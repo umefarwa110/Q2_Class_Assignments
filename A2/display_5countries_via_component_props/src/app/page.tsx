@@ -1,67 +1,27 @@
+import './stylesheet/style.css';
 import Link from "next/link"
+
 
 export default function Contact() {
     return (
         <>
-            <h1 style={{
-                backgroundColor: "#f5c8a2",
-                color: "#481f02",
-                fontSize: "24px",
-                padding: "10px",
-                textAlign: "center",
-                fontFamily: "sans-serif"
-            }}
-            >This is Dynamic Routing Assignment by Making Component and Using Props</h1>
+            <h1>This is Dynamic Routing Assignment by Making Component and Using Props</h1>
+            
+            <h2 >Select your Desired Country</h2>
 
-            <h2 style={{
-                color: "#481f02",
-                fontSize: "24px",
-                textAlign: "center",
-                fontFamily: "sans-serif",
-            }}
-            >Select your Desired Country</h2>
+            <div className="list">
+                <a href="/country/Malaysia"> Malaysia</a> &nbsp; &nbsp; &nbsp;
+                <a href="/country/Finland"> Finland</a> &nbsp; &nbsp; &nbsp;
+                <a href="/country/Iceland"> Iceland</a> &nbsp; &nbsp; &nbsp;
+                <a href="/country/Japan"> Japan</a> &nbsp; &nbsp; &nbsp;
+                <a href="/country/Turkey"> Turkey</a> &nbsp; &nbsp; &nbsp;
 
-            <div style={{ textAlign: "center" }}>
-                <Link style={{
-                    color: "black",
-                    textDecoration: "none",
-                    backgroundColor: "bisque",
-                    padding: "5px"
-                }}
-                    href="/country/Malaysia"> Malaysia</Link> &nbsp; &nbsp; &nbsp;
-
-                <Link style={{
-                    color: "black",
-                    textDecoration: "none",
-                    backgroundColor: "bisque",
-                    padding: "5px"
-                }}
-                    href="/country/Finland"> Finland</Link> &nbsp; &nbsp; &nbsp;
-
-                <Link style={{
-                    color: "black",
-                    textDecoration: "none",
-                    backgroundColor: "bisque",
-                    padding: "5px"
-                }}
-                    href="/country/Iceland"> Iceland</Link> &nbsp; &nbsp; &nbsp;
-
-                <Link style={{
-                    color: "black",
-                    textDecoration: "none",
-                    backgroundColor: "bisque",
-                    padding: "5px"
-                }}
-                    href="/country/Japan"> Japan</Link> &nbsp; &nbsp; &nbsp;
-
-                <Link style={{
-                    color: "black",
-                    textDecoration: "none",
-                    backgroundColor: "bisque",
-                    padding: "5px"
-                }}
-                    href="/country/Turkey"> Turkey</Link> &nbsp; &nbsp;
+                {/* <Link href="/country/Finland"> Finland</Link> &nbsp; &nbsp; &nbsp;
+                <Link href="/country/Iceland"> Iceland</Link> &nbsp; &nbsp; &nbsp;
+                <Link href="/country/Japan"> Japan</Link> &nbsp; &nbsp; &nbsp;
+                <Link href="/country/Turkey"> Turkey</Link> &nbsp; &nbsp; */}
             </div>
         </>
     );
 };
+

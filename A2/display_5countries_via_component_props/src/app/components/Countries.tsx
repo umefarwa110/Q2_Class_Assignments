@@ -8,9 +8,9 @@ export default function Countries({ country_info }: { country_info: { name: stri
                     textAlign: "center",
                     fontFamily: "sans-serif",
                 }}>
-                    <h1>Country Name: {country_info.name}</h1>
-                    <h1>Capital: {country_info.capital}</h1>
-                    <h1>Population: {country_info.population}</h1>
+                    <h2>Country Name: {country_info.name}</h2>
+                    <h2>Capital: {country_info.capital}</h2>
+                    <h2>Population: {country_info.population}</h2>
                 </div>
             ) : (
                 <h1>Country Not Found</h1>

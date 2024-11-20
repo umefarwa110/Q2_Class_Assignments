@@ -1,8 +1,6 @@
-/* /* @tailwind base;
+@tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-
 
 :root {
   --background: #ffffff;
@@ -26,24 +24,4 @@ body {
   .text-balance {
     text-wrap: balance;
   }
-}
-
- */
-
- .link{
-  text-decoration: none;
-  background-color: rgb(147, 204, 255);
-  width: 110px;
-  height: 30px;
-  font-family: sans-serif;
-  color: rgb(1, 0, 65);
-  font-size: 22px;
-  font-weight: bold;
-  border-radius: 10px;
-  
-}
-
-.link a{
-  
-  text-align: center;
 }
