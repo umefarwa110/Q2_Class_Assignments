@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* .main_body {
+  width: 1440px;
+  height: 2453px;
+  background-color: #cfa6a61c;
+  /*#cfa6a61c*/
+
+/*----------------*/
+.main_nav {
+  background-color: #cfa6a61c;
+}
+
+.nav_items {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: end;
+  height: 100px;
+  align-items: center;
+  margin-right: 70px;
+  margin-left: 70px;
+}
+
+.nav_item {
+  padding-inline: 20px;
+  font-family: Inter;
+}
+
+.nav_item a {
+  text-decoration: none;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  color: #000000;
+}
+
+/*----------------*/
+.main_footer {
+  background-color: #cfa6a61c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 243px;
+  justify-content: center;
+  gap: 35px;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.main_footer p {
+  font-family: Heebo;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+/*----------------*/
+
+.hero_section {
+  background-color: #cfa6a61c;
+}
+
+.container {
+  max-width: 1030px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero_container {
+  display: flex;
+  height: 500px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero_data {
+  width: 521px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.hero_data h1 {
+  font-family: Heebo;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 61px;
+  color: #21243D;
+}
+
+.hero_data p {
+  font-weight: 400;
+  font-family: Heebo;
+  font-size: 16px;
+  line-height: 23.5px;
+}
+
+.hero_data .hero_btn {
+  background-color: #F98585;
+  width: 205px;
+  height: 50px;
+  box-shadow: 0px 4px 4px 0px #4141418A;
+  border: none;
+  border-radius: 2px;
+  font-family: Heebo;
+  font-size: 18px;
+  font-weight: 500;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+/*----------------*/
+
+.recent_post {
+  background-color: #F4E2E2;
+}
+
+.recent_post .recent_main {
+  height: 502px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.recent_post .recent_main .box_top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.recent_post .box_top h3 {
+  font-family: Heebo;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 32.31px;
+}
+
+.recent_post .box_top .viewall_btn {
+  font-family: Heebo;
+  font-size: 22px;
+  font-weight: 500;
+  color: #F98585;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.two_cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 35px;
+}
+
+.two_cards .card {
+  background-color: #FFFFFF;
+  height: 356px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.two_cards .card .card_heading {
+  font-family: Heebo;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 38px;
+  letter-spacing: 2%;
+}
+
+.two_cards .card .card_date {
+  font-family: Heebo;
+  font-weight: 400px;
+  font-size: 18px;
+  line-height: 38px;
+}
+
+.two_cards .card .card_para {
+  font-family: Heebo;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23.5px;
+}
+
+/*----------------*/
+
+.featured_work {
+  background-color: #cfa6a61c;
+}
+
+.featured_work .feature_heading {
+  font-family: Heebo;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 32.31px;
+}
+
+.featured_work .card1 {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.featured_work .card_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.featured_work .card1 h2 {
+  font-family: Heebo;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 44.06px;
+}
+
+.featured_work .card1 p {
+  font-family: Heebo;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 26.44px;
+}
+
+.featured_work .badge_data .badge {
+  width: 68px;
+  height: 24px;
+  border-radius: 50px;
+  background-color: #F98585;
+  justify-content: center;
+  display: flex;
+}
+
+.featured_work .badge_data .badge p {
+  font-family: Heebo;
+  font-size: 18px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.featured_work .badge_data p {
+  font-family: Heebo;
+  font-size: 20px;
+  font-weight: 400;
+  color: #0000009E;
+}
+
+.featured_work .badge_data {
+  display: flex;
+  gap: 22px;
+}
+
+.featured_work .feature_cards {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.featured_work .feature_main {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+
+/*----------------*/
